@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Typing Speed Game</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>⚡ Typing Speed Challenge</h1>
+
+<div class="difficulty-selector">
+<button class="diff-btn active" data-level="easy">Easy</button>
+<button class="diff-btn" data-level="medium">Medium</button>
+<button class="diff-btn" data-level="hard">Hard</button>
+</div>
+
+<div class="stats">
+
+<div class="stat">
+<p>Time</p>
+<h2 id="time">0.0s</h2>
+</div>
+
+<div class="stat">
+<p>WPM</p>
+<h2 id="wpm">0</h2>
+</div>
+
+<div class="stat">
+<p>Accuracy</p>
+<h2 id="accuracy">100%</h2>
+</div>
+
+<div class="stat streak">
+<p>🔥 Streak</p>
+<h2 id="streak">0</h2>
+</div>
+
+<div class="stat">
+<p>Completed</p>
+<h2 id="completed">0</h2>
+</div>
+
+</div>
+
+<div class="progress-bar">
+<div class="progress-fill" id="progress"></div>
+</div>
+
+<div class="quote-box" id="quote"></div>
+
+<textarea
+id="input"
+placeholder="Start typing here..."
+disabled
+></textarea>
+
+<button id="startBtn">Start Test</button>
+<button id="stopBtn" style="display:none;">Stop & View Results</button>
+<div class="high-score">High Score: <span id="highScore">0</span> WPM | Completed: <span id="totalCompleted">0</span></div>
+
+</div>
+
+<div class="modal" id="resultModal">
+<div class="modal-content">
+<h2>🎉 Test Complete!</h2>
+<div class="result-stats">
+<p>Total Completed: <span id="finalCompleted"></span> sentences</p>
+<p>Average WPM: <span id="avgWPM"></span></p>
+<p>Total Time: <span id="totalTime"></span></p>
+<p>Best Accuracy: <span id="bestAccuracy"></span></p>
+<p class="new-record" id="newRecord" style="display:none;">🏆 NEW HIGH SCORE!</p>
+</div>
+<button id="playAgain">Start New Session</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
