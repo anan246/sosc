@@ -14,7 +14,9 @@ A modern, interactive typing speed game built with vanilla JavaScript, HTML, and
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-deployment-url.vercel.app)
+[View Live Demo](https://type-gaming.vercel.app)
+
+> Check your Vercel dashboard for the exact deployment URL
 
 ## 📸 Screenshots
 
@@ -32,7 +34,7 @@ A modern, interactive typing speed game built with vanilla JavaScript, HTML, and
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/type-gaming.git
+git clone https://github.com/anan246/sosc.git
 ```
 
 2. Navigate to the project directory:
@@ -117,9 +119,10 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-**Your Name**
+**anan246**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@anan246](https://github.com/anan246)
+- Repository: [sosc](https://github.com/anan246/sosc)
 
 ## 🌟 Show your support
 
